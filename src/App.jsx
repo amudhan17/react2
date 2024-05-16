@@ -5,12 +5,6 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userId, setUserId] = useState('');
   const [password, setPassword] = useState('');
-  const [studentDetails, setStudentDetails] = useState({
-    name: 'K. AMUDHAN',
-    rollNumber: '22027',
-    course: 'CSE Core',
-    year: '2nd',
-  });
 
   const handleLogin = () => {
     if (userId === 'Amudhan' && password === 'ams') {
@@ -33,10 +27,10 @@ function App() {
       </header>
       {isLoggedIn ? (
         <div>
-          <h2>Welcome, {studentDetails.name}</h2>
-          <p>Roll Number: {studentDetails.rollNumber}</p>
-          <p>Course: {studentDetails.course}</p>
-          <p>Year: {studentDetails.year}</p>
+          <h2>Welcome, K. AMUDHAN </h2>
+          <p>Roll Number: 22027 </p>
+          <p>Course: CSE Core </p>
+          <p>Year: 2 </p>
           <table>
   <thead>
     <tr>
