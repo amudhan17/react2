@@ -6,6 +6,7 @@ header {
   background-color: lightcoral;
   padding: 20px;
   color: white;
+  margin-bottom: 20px;
 }
 
 table {
@@ -29,9 +30,20 @@ button {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  margin: 5px;
 }
 
 button:hover {
   background-color: navy;
+}
+
+input {
+  margin: 5px; 
+  padding: 8px;
+  width: 200px;
+}
+
+h2, p {
+  margin: 10px;
 }
 
